@@ -1,0 +1,23 @@
+h1 {
+    background-image: url("https://img.meta.com.vn/Data/image/2021/08/17/con-vit-vang-tren-fb-la-gi-trend-anh-avatar-con-vit-vang-la-gi-3.jpg");
+    background-position: center;
+    text-align:top center;
+    color:red;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.w {
+    color: green;
+    font-style: italic;
+    direction: ltr;
+}
+.highlight{
+    background-color: orange;
+    word-spacing: 5px;
+}
