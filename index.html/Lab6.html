@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album zing mp3</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .album-container {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+        .album-card {
+            flex: 0 0 auto;
+            width: 150px;
+            text-align: center;
+            cursor: pointer; /* Adds a pointer cursor to indicate interactivity */
+        }
+        .album-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
+        }
+        /* Hover effects for the image */
+        .album-card img:hover {
+            transform: scale(1.05); /* Slightly scales up the image */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+            filter: brightness(1.1); /* Slightly brightens the image */
+        }
+        .album-title {
+            font-size: 14px;
+            margin: 5px 0;
+            color: #e0e0e0;
+        }
+        .album-artist {
+            font-size: 12px;
+            color: #b0b0b0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Album Hot</h2>
+    <div class="album-container">
+        <div class="album-card">
+            <img src="https://photo-resize-zmp3.zmdcdn.me/w256_r1x1_jpeg/cover/c/a/9/0/ca90d34cb77b634ca65d1ca065890aeb.jpg" alt="Baby Honey">
+            <div class="album-title">Baby Honey (Single)</div>
+            <div class="album-artist">ĐẠTĐO, DUK ANK, KIYOSHI PHAN</div>
+        </div>
+        <div class="album-card">
+            <img src="https://photo-resize-zmp3.zmdcdn.me/w256_r1x1_jpeg/cover/3/2/3/7/3237500246258010bede504f569c8fca.jpg" alt="Cứu Nợ">
+            <div class="album-title">Cừu Non (Single)</div>
+            <div class="album-artist">Châu Dương, Đình Quang Đạt</div>
+        </div>
+        <div class="album-card">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2023/11/15/d/6/1/0/1700017910679_640.jpg" alt="Người Ơi Đừng Bỏ Quê!">
+            <div class="album-title">Người ơi đừng bỏ quê!</div>
+            <div class="album-artist">Hồ Văn Cường</div>
+        </div>
+        <div class="album-card">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2023/11/22/3/9/1/9/1700646306811_640.jpg" alt="Nghe Nói Anh Yêu Em">
+            <div class="album-title">Nghe Nói Anh Yêu Em</div>
+            <div class="album-artist">Châu Khải Phong, Nguyên</div>
+        </div>
+        <div class="album-card">
+            <img src="https://lyricvn.com/wp-content/uploads/2023/11/2886473a7a22ecc4d2cf52c69a1fb3a4.jpg" alt="Tự Ta Đa Tình Tự Ta Đau">
+            <div class="album-title">Tự Ta Đa Tình Tự Ta Đau</div>
+            <div class="album-artist">Bạch Công Khanh</div>
+        </div>
+    </div>
+</body>
+</html>

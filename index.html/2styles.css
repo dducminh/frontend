@@ -1,0 +1,78 @@
+/* Định dạng toàn bộ trang */
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Khung chứa chính */
+#main-container {
+    width: 560px;
+    margin: 0 auto; /* Căn giữa màn hình */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề chính */
+#main-title {
+    color: rgb(19, 151, 151);
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Khung chứa ảnh */
+.image-container {
+    width: 560px;
+    height: 430px;
+    background-color: rgb(194, 186, 186);
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo ảnh lấp đầy khung */
+}
+
+/* Chú thích ảnh */
+.image-caption {
+    color: rgb(66, 68, 189);
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Tin liên quan */
+.related-news {
+    background-color: rgb(66, 189, 189);
+    padding: 15px;
+}
+
+.related-news h2 {
+    color: white;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.related-news ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.related-news li {
+    margin: 10px 0;
+}
+
+/* Liên kết tin tức */
+.news-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.news-link:hover {
+    color: rgb(228, 228, 19); /* Màu khi hover */
+}

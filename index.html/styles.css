@@ -1,0 +1,69 @@
+/* Container chính */
+.album-hot-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.album-hot-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Layer "bo" chứa các album */
+.album-layer {
+    position: relative; /* Layer cha */
+    height: 200px; /* Đặt chiều cao cố định để chứa các layer con */
+    width: 100%;
+}
+
+/* Các layer con (album) */
+.album-item {
+    position: absolute; /* Layer con với vị trí tuyệt đối */
+    width: 150px;
+    text-align: center;
+}
+
+.album-item img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.album-item span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Hiệu ứng hover sử dụng ::before */
+.album-item:hover::before {
+    content: ""; /* Tạo một lớp phủ */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    z-index: 1; /* Đảm bảo lớp phủ nằm trên ảnh */
+}
+
+.album-item:hover::after {
+    content: "Nghe Ngay"; /* Nút "Nghe Ngay" khi hover */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    z-index: 2; /* Đặt trên lớp phủ */
+}
+
+/* Đảm bảo span (tên album) không bị che bởi ::before/::after */
+.album-item span {
+    position: relative;
+    z-index: 3;
+}
