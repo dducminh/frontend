@@ -5,7 +5,7 @@
   <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="yourusername" />
 </p>
 
-- 🔭 I’m currently working on **[Phu Quoc Travel Website](https://github.com/yourusername/phuquoc-travel)**  
+- 🔭 I’m currently working on http://127.0.0.1:5500/BTL.html
 - 🌱 I’m currently learning **React, Node.js, Tailwind CSS**  
 - 👯 I’m looking to collaborate on **open source projects**  
 - 💬 Ask me about **HTML, CSS, JavaScript, Git**  
